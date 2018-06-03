@@ -4,7 +4,7 @@ This <b>obj parser for Unity</b> allows you to load models from obj+mtl files <b
 
 Key features:
 * <b>Asynchronous</b>. And I don’t mean coroutines, I mean separate threads, so your application doesn’t hang when it reads geometry.
-Fast. Millions of polygons take tens of seconds to load on desktop cpu. Keep in mind that in build it’s about 3 times faster than in editor.
+* <b>Fast.</b> Millions of polygons take tens of seconds to load on desktop cpu. Keep in mind that in build it’s about 3 times faster than in editor.
 * <b>Features support</b>. You can load meshes with triangles or quads, with positive or negative vertex indexes, there’s support for different normals and uv coordinates on a vertex, white spaces in file names etc.
 * <b>Simplicity</b>. Just call await ObjParser.Parse(path) and you’re good to go! Example scene is also included.
 
